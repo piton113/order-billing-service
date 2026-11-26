@@ -10,7 +10,7 @@ class CustomerProfile:
 # 1. Ліквідація Stamp Coupling: передаються лише потрібні примітивні типи (city та weight_kg)
 def calculate_delivery_cost(city: str, weight_kg: float) -> float:
     base_rate = 50.0 if city == "Ivano-Frankivsk" else 110.0
-    return base_rate + (weight_kg * 12.0)
+    return base_rate + (weight_kg * 15.0)
 
 
 # 2. Ліквідація Common Coupling та Control Coupling:
